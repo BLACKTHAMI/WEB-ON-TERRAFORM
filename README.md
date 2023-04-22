@@ -4,7 +4,10 @@
 
 * AWS account
 * Terraform installed on your local machine
-* Installing tflint to enforce best practice [ FINDING POSSIBLE ERRORS, WARN ABOUT DEPRECATED SYNTAX UNUSED DECLARATION ]
+* Installing tflint to enforce best practice
+
+[ FINDING POSSIBLE ERRORS, WARN ABOUT DEPRECATED SYNTAX UNUSED DECLARATION ]
+
 # Overview
 
 This is a Terraform configuration file that provisions resources on AWS for a hypothetical website. The script creates an S3 bucket for storing the website files and configures it for hosting static content. It also creates IAM policies and users to allow different groups of users to access and modify the website files in different ways.
