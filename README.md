@@ -36,3 +36,5 @@ The aws_iam_policy.content_editor_policy resource block creates an IAM policy th
 
 
 ------------------------------------------------------------------
+# NOTE 
+You should also configure any required secrets, like AWS access key and secret key, in your repository settings and use them in your Terraform scripts.
