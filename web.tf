@@ -11,7 +11,7 @@ module "s3-bucket" {
 
 # Create an S3 bucket for storing website files
 resource "aws_s3_bucket_acl" "website_bucket" {
-  bucket = "example-website-bucket"
+  bucket = "thami-website-bucket"
   acl    = "public-read"
 }
 
